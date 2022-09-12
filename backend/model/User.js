@@ -30,30 +30,3 @@ const userSchema = new mongoose.Schema({
 });
 
 export const User = mongoose.model("User", userSchema);
-/*
-
-let subjects = [
-  {
-    name: "Subject",
-    notes: [
-      {
-        heading: "Heading",
-        date: "09/09/2022",
-        pageno: 0,
-        text: "Text"
-      }
-    ]
-  }
-]
-*/
-/*  {
-         name:{type:String,default:"Subject"},
-         notes:[
-             {
-                 heading:{type:String,default:"Heading"},
-                 date:{type:String,default:"09/09/2022"},
-                 pageNo:{type:Number,default:0},
-                 text:{type:String,default:"text"}
-             }
-         ]
-     } */
